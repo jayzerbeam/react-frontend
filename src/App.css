@@ -1,0 +1,61 @@
+/* This is the place for global styles */
+
+a {
+    @apply underline text-blue-800;
+}
+
+input {
+    @apply border border-black pl-2 rounded-sm;
+}
+
+h1 {
+    @apply text-2xl font-bold;
+}
+
+h2 {
+    @apply text-xl font-bold;
+}
+
+h3 {
+    @apply text-lg font-bold;
+}
+
+select {
+    @apply p-1 rounded-sm border border-black;
+}
+
+table,
+th,
+td {
+    @apply border-2 border-black border-collapse;
+}
+
+th,
+td {
+    @apply px-5 py-2;
+}
+
+label {
+    @apply text-sm mb-1 font-semibold;
+}
+
+.modal {
+    @apply flex w-full h-full fixed top-0 justify-center items-center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+    @apply w-40 font-bold rounded-md py-2 px-4 text-white bg-blue-600 border border-blue-900 hover:bg-blue-950;
+}
+
+.btn-disabled {
+    @apply w-40 font-bold rounded-md py-2 px-4 text-white bg-gray-500 border border-gray-700;
+}
+
+.btn-delete {
+    @apply rounded-md px-2 text-white bg-red-600 border border-red-900 hover:bg-red-900;
+}
+
+.btn-select {
+    @apply rounded-md px-2 text-white bg-green-600 border border-green-900 hover:bg-green-900;
+}
